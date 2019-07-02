@@ -50,7 +50,7 @@ export default {
         mobile: "",
         password: ""
       },
-      tips: "提示信息",
+      tips: "提示信息22",
       tips_show: false,
       is_error: false
     };
