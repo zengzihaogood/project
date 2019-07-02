@@ -64,7 +64,6 @@ export default {
     });
   },
   methods: {
-    ...mapActions("test", ["test"]),
     //读取cookie，需要注意的是cookie是不能存中文的，如果需要存中文，解决方法是后端先进行编码encode()，前端取出来之后用decodeURI('string')解码。（安卓可以取中文cookie，IOS不行）
     getCookie(name) {
       if (name == document.cookie) {
